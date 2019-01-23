@@ -1,0 +1,11 @@
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\bin\Debug\netcoreapp2.1\play_with_simple_linq_queries.deps.json
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\bin\Debug\netcoreapp2.1\play_with_simple_linq_queries.runtimeconfig.json
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\bin\Debug\netcoreapp2.1\play_with_simple_linq_queries.runtimeconfig.dev.json
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\bin\Debug\netcoreapp2.1\play_with_simple_linq_queries.dll
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\bin\Debug\netcoreapp2.1\play_with_simple_linq_queries.pdb
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.csprojAssemblyReference.cache
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.csproj.CoreCompileInputs.cache
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.AssemblyInfoInputs.cache
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.AssemblyInfo.cs
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.dll
+C:\Users\bl035e\Documents\playground\csharp\play_with_simple_linq_queries\obj\Debug\netcoreapp2.1\play_with_simple_linq_queries.pdb

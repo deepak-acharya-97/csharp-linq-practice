@@ -1,13 +1,25 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.Linq;
 
 namespace play_with_simple_linq_queries
 {
     class Program
     {
+        static void P(dynamic msg) => Console.WriteLine(msg);
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            float cutOff=35.88F;
+            float[] scores = new float[] {56.25F,34.99F,35.001F,98.50F}; 
+
+            IEnumerable<float> scoreQuery=from score in scores
+                                            where score.CompareTo(cutOff).Equals(1)
+                                            select score;
+
+            foreach(var score in scoreQuery)
+            {
+                P(score);
+            }                                          
         }
     }
 }
