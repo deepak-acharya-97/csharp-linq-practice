@@ -16,10 +16,22 @@ namespace play_with_simple_linq_queries
                                             where score.CompareTo(cutOff).Equals(1)
                                             select score;
 
-            foreach(var score in scoreQuery)
+            // foreach(var score in scoreQuery)
+            // {
+            //     P(score);
+            // }
+            List<Student> students = new List<Student> 
             {
-                P(score);
-            }                                          
+                new Student
+                {
+                    RollNumber="14IT167",
+                    Name="Rocky Bhai",
+                    Zone=Zone.Bengaluru,
+                    CGPA=8.03F,
+                    Department=Department.InformationTechnology,
+                    StateQuota=StateQuota.HomeState
+                }
+            };                                          
         }
     }
 }
