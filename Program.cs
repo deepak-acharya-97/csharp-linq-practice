@@ -30,6 +30,33 @@ namespace play_with_simple_linq_queries
                     CGPA=8.03F,
                     Department=Department.InformationTechnology,
                     StateQuota=StateQuota.HomeState
+                },
+                new Student
+                {
+                    RollNumber="14ME272",
+                    Name="Varun Naidu",
+                    Zone=Zone.Bengaluru,
+                    CGPA=10F,
+                    Department=Department.MechanicalEngineering,
+                    StateQuota=StateQuota.HomeState
+                },
+                new Student
+                {
+                    RollNumber="14IT233",
+                    Name="Rajesh Karunanidhi",
+                    Zone=Zone.Other,
+                    CGPA=8.97F,
+                    Department=Department.InformationTechnology,
+                    StateQuota=StateQuota.OtherState
+                },
+                new Student
+                {
+                    RollNumber="14EC226",
+                    Name="Shashidhar Boraiah",
+                    Zone=Zone.Bengaluru,
+                    CGPA=9F,
+                    Department=Department.ElectronicsAndCommunicationEngineering,
+                    StateQuota=StateQuota.HomeState
                 }
             };                                          
         }
