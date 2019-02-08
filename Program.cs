@@ -58,7 +58,35 @@ namespace play_with_simple_linq_queries
                     Department=Department.ElectronicsAndCommunicationEngineering,
                     StateQuota=StateQuota.HomeState
                 }
-            };                                          
+            };
+            var searchQuery=from student in students
+                                group student by student.Department;
+            
+            foreach(var groupedStudents in searchQuery)
+            {
+                Console.WriteLine(groupedStudents.Key);
+                foreach(var student in groupedStudents)
+                {
+                    Console.WriteLine(student.CGPA);
+                }
+                Console.WriteLine();
+            }
+
+            var departmentToppers = (from student in students
+                                    group student by student.Department into departmentStudents
+                                    let maximumCgpa=departmentStudents.Max(y=>y.CGPA)
+                                    select new {
+                                        DepartmentName=departmentStudents.Key,
+                                        Name = departmentStudents.FirstOrDefault(x=>x.CGPA.Equals(maximumCgpa)).Name,
+                                        MaximumCgpa=maximumCgpa
+                                    });
+            foreach(var departmentTopper in departmentToppers)
+            {
+                Console.WriteLine(departmentTopper.DepartmentName);
+                Console.WriteLine(departmentTopper.Name);
+                Console.WriteLine(departmentTopper.MaximumCgpa);
+                Console.WriteLine("**************************************");
+            }
         }
     }
 }
